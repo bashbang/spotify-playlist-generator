@@ -1,0 +1,4 @@
+# Playlist Information
+Playlist Name: Blues Playlist
+Playlist Description: A collection of blues songs with a swung rhythm and similar recommendations.
+Max Duration: 6
