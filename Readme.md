@@ -25,43 +25,50 @@ The **Spotify Playlist Generator** is a Python script that interacts with the Sp
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/spotify-playlist-generator.git
-   cd spotify-playlist-generator
+  ```bash
+  git clone https://github.com/bashbang/spotify-playlist-generator.git
+  cd spotify-playlist-generator
+  ```
 
 1. **Set Up a Virtual Environment:**
 
    ```bash
-  python -m venv venv
-  source venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate
+  ```
 
 1. **Install Dependencies:**
 
   ```bash
   pip install -r requirements.txt
+  ```
 
 1. **Set Up Spotify API Credentials:**
   - Create a file named config.json in the root directory with the following content:
 
   ```json
-  {
-    "client_id": "YOUR_SPOTIFY_CLIENT_ID",
-    "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
-    "redirect_uri": "YOUR_SPOTIFY_REDIRECT_URI"
-  }
+    {
+      "client_id": "YOUR_SPOTIFY_CLIENT_ID",
+      "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+      "redirect_uri": "YOUR_SPOTIFY_REDIRECT_URI"
+    }
+  ```
 
 ## Usage
 - Create or Update a Playlist from list in songs.txt:
   ```bash
   python main.py
+  ```
 
 - Create or Update a Playlist with Recommendations:
   ```bash
   python main.py --recommendations
+  ```
 
 - Export the Playlist to songs.txt:
   ```bash
   python main.py --export
+  ```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
