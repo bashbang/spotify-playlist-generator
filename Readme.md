@@ -33,8 +33,8 @@ The **Spotify Playlist Generator** is a Python script that interacts with the Sp
 2. **Set Up a Virtual Environment:**
 
    ```bash
-    python -m venv venv
-    source venv/bin/activate
+  python -m venv venv
+  source venv/bin/activate
   ```
 
 3. **Install Dependencies:**
@@ -47,11 +47,11 @@ The **Spotify Playlist Generator** is a Python script that interacts with the Sp
   - Create a file named config.json in the root directory with the following content:
 
   ```json
-    {
-      "client_id": "YOUR_SPOTIFY_CLIENT_ID",
-      "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
-      "redirect_uri": "YOUR_SPOTIFY_REDIRECT_URI"
-    }
+  {
+    "client_id": "YOUR_SPOTIFY_CLIENT_ID",
+    "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+    "redirect_uri": "YOUR_SPOTIFY_REDIRECT_URI"
+  }
   ```
 
 ## Usage
