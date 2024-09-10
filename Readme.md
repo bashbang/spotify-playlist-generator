@@ -23,27 +23,26 @@ The **Spotify Playlist Generator** is a Python script that interacts with the Sp
 
 ## Installation
 
-1. **Clone the Repository:**
+**Clone the Repository:**
 
   ```bash
   git clone https://github.com/bashbang/spotify-playlist-generator.git
   cd spotify-playlist-generator
   ```
 
-2. **Set Up a Virtual Environment:**
-
+**Set Up a Virtual Environment:**
    ```bash
   python -m venv venv
   source venv/bin/activate
   ```
 
-3. **Install Dependencies:**
+**Install Dependencies:**
 
   ```bash
   pip install -r requirements.txt
   ```
 
-4. **Set Up Spotify API Credentials:**
+**Set Up Spotify API Credentials:**
   - Create a file named config.json in the root directory with the following content:
 
   ```json
